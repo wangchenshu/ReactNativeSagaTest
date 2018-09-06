@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import { onIncrement, onDecrement, onIncrementAsync, onDecrementAsync } from '../reducers/reducers'
 import { View, Button, Text } from 'react-native'
 
-class Counter extends React.Component {
+class Counter extends Component {
 	constructor(props) {
 		super(props)
 	}
