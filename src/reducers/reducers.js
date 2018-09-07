@@ -21,9 +21,7 @@ export const onDecrementAsync = createAction(DECREMENT_ASYNC)
  */
 const reducer = handleActions({
   INCREMENT: (state) => state + 1,
-  DECREMENT: (state) => state - 1,
-  INCREMENT_ASYNC: (state) => state,
-  DECREMENT_ASYNC: (state) => state
+  DECREMENT: (state) => state - 1
 }, initialState);
 
 export default reducer;
