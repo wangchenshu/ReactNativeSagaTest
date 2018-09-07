@@ -15,8 +15,8 @@ class Counter extends Component {
 				<Text>Clicked: {this.props.value} times</Text>
 				<Button onPress={this.props.onIncrement} title="+" />
 				<Button onPress={this.props.onDecrement} title="-" />
-				<Button onPress={this.props.onIncrementAsync} title="increment async" />
-				<Button onPress={this.props.onDecrementAsync} title="decrement async" />
+				<Button onPress={this.props.onIncrementAsync} title="increment after 1 sec" />
+				<Button onPress={this.props.onDecrementAsync} title="decrement after 1 sec" />
 			</View>
 		)
 	}

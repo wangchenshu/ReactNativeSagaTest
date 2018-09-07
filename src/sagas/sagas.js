@@ -2,7 +2,12 @@
 
 import { takeEvery, delay } from 'redux-saga'
 import { put, call, all } from 'redux-saga/effects'
-import { INCREMENT, DECREMENT, INCREMENT_ASYNC, DECREMENT_ASYNC } from '../reducers/reducers'
+import {
+    INCREMENT,
+    DECREMENT,
+    INCREMENT_ASYNC,
+    DECREMENT_ASYNC
+} from '../../actionTypes'
 
 export function* incrementAsync() {
     yield call(delay, 1000)
